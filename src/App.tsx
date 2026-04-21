@@ -593,7 +593,7 @@ const Chatbot = () => {
           {
             role: "user",
             parts: [{
-              text: `You are CognitoAI Assistant, a helpful AI for Cognito Insights Solutions AI Private Limited. 
+              text: `You are CognitoAI Assistant, a helpful AI for Cognito Insights Solutions Private Limited. 
             The company provides IT & Non-IT Training, Corporate Upskilling, Hiring Solutions, and Digital Platforms.
             We are currently hiring for roles like AI / API Integrator, Junior AI Developer, Full Stack Developer (MERN), Data Science Intern, and Associate Software Engineer.
             Contact: info@cognitoinsights.ai, 8978246111, 8978247111. Website: www.cognitoinsights.ai
@@ -1669,7 +1669,7 @@ const About = () => {
             </h2>
             <div className="space-y-8 text-xl text-brand-text-dim font-light leading-relaxed opacity-80">
               <p>
-                Founded in 2025, Cognito Insights Solutions AI is driven by innovators with over 30+ years of collective experience at the vanguard of the artificial intelligence movement. We don't just engineer software; we architect cognitive frameworks that evolve with your enterprise.
+                Founded in 2025, Cognito Insights Solutions is driven by innovators with over 30+ years of collective experience at the vanguard of the artificial intelligence movement. We don't just engineer software; we architect cognitive frameworks that evolve with your enterprise.
               </p>
               <p className="border-l-2 border-brand-primary/30 pl-8 italic">
                 Our ecosystem synergizes world-class data scientists, neural engineers, and ethicists to deploy AI that is transparent, purposeful, and infinitely scalable.
@@ -1760,7 +1760,7 @@ const Footer = () => {
           <div className="space-y-8">
             <VisualLogo darkTheme={true} />
             <p className="text-slate-300 text-sm leading-relaxed font-light">
-              Cognito Insights Solutions AI is at the forefront of digital transformation, bridging the gap between human ingenuity and artificial intelligence.
+              Cognito Insights Solutions is at the forefront of digital transformation, bridging the gap between human ingenuity and artificial intelligence.
             </p>
             <div className="flex gap-4 relative z-10">
               {[Twitter, Linkedin, Github].map((Icon, i) => (
@@ -1832,7 +1832,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="text-[10px] text-slate-300 uppercase tracking-widest font-bold text-center">
-            © 2025 Cognito Insights Solutions AI Private Limited
+            © 2025 Cognito Insights Solutions Private Limited
           </div>
           <div className="text-[10px] text-slate-300 uppercase tracking-widest font-bold">
             www.cognitoinsights.ai
