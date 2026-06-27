@@ -471,6 +471,7 @@ const Navbar = () => {
   const navLinks = [
     { name: 'Solutions', href: '#solutions' },
     { name: 'Training', href: '#training' },
+    { name: 'Courses', href: 'https://courses.cognitoinsights.ai', target: '_blank', rel: 'noopener noreferrer' },
     { name: 'About', href: '#about' },
     { name: 'Careers', href: '#registration' },
     { name: 'Contact', href: '#contact' },
@@ -496,6 +497,8 @@ const Navbar = () => {
               <motion.a
                 key={link.name}
                 href={link.href}
+                target={link.target}
+                rel={link.rel}
                 initial={{ opacity: 0, y: -10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: i * 0.1 }}
@@ -533,6 +536,8 @@ const Navbar = () => {
                   <a
                     key={link.name}
                     href={link.href}
+                    target={link.target}
+                    rel={link.rel}
                     className="w-full py-4 border-b border-black/20 text-lg font-bold text-slate-800 uppercase tracking-[2px] hover:text-brand-primary transition-colors last:border-b-0"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
@@ -823,7 +828,7 @@ const TrainingPrograms = () => {
   );
 };
 
-const ScrollSegment = ({ index, total, progress }: { index: number, total: number, progress: any }) => {
+const ScrollSegment = ({ index, total, progress }: { index: number, total: number, progress: any, key?: React.Key }) => {
   const opacity = useTransform(progress, [index / total, (index + 0.5) / total, (index + 1) / total], [0.3, 1, 0.3]);
   const scale = useTransform(progress, [index / total, (index + 0.5) / total, (index + 1) / total], [1, 1.2, 1]);
 
